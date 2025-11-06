@@ -1,0 +1,56 @@
+[
+    {
+        "Id": "sha256:caf97d940158071645189969cd6e7d8e3ce2c19fffd2e75ef5bc4c9c6bb9378e",
+        "RepoTags": [
+            "conversao-temperatura:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:97bed23a34971024aa8d254abbe67b7168772340d1f494034773bc464e8dd5b6",
+        "Comment": "",
+        "Created": "2025-10-31T20:11:10.805044916Z",
+        "DockerVersion": "28.5.1",
+        "Author": "",
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 403192308,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/c9d2733741d1595e64b4dc008cd9d6cda37eaff9e808cc7e6b4651612b6b41c9/diff",
+                "MergedDir": "/var/lib/docker/overlay2/248aa1969c86a0898edc68b79278c70bb2e5134fbe58d056c7e7ba5123e104d5/merged",
+                "UpperDir": "/var/lib/docker/overlay2/248aa1969c86a0898edc68b79278c70bb2e5134fbe58d056c7e7ba5123e104d5/diff",
+                "WorkDir": "/var/lib/docker/overlay2/248aa1969c86a0898edc68b79278c70bb2e5134fbe58d056c7e7ba5123e104d5/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:073ec47a8c22dcaa4d6e5758799ccefe2f9bde943685830b1bf6fd2395f5eabc",
+                "sha256:443e1489b1cae278424dc77b743448dbe9d6fc7b9a970bdc510a0e7a379ea600"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2025-10-31T17:11:18.470477074-03:00"
+        },
+        "Config": {
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "Entrypoint": null,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            },
+            "OnBuild": null,
+            "User": "",
+            "Volumes": null,
+            "WorkingDir": ""
+        }
+    }
+]
